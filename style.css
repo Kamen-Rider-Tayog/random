@@ -161,7 +161,7 @@ body {
 
 @media (max-width: 1200px) {
     .container {
-        width: 70%;
+        width: 60%;
     }
     
     .choice {
@@ -177,7 +177,7 @@ body {
 
 @media (max-width: 768px) {
     .container {
-        width: 80%;
+        width: 70%;
         height: 95%;
     }
     
