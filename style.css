@@ -159,22 +159,6 @@ body {
 	transition: 0.3s ease;
 }
 
-@media (max-width: 1200px) {
-    .container {
-        width: 60%;
-    }
-    
-    .choice {
-        height: 250px;
-        width: 250px;
-    }
-    
-    .choices {
-        width: 400px;
-        height: 200px;
-    }
-}
-
 @media (max-width: 768px) {
     .container {
         width: 70%;
