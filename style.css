@@ -6,7 +6,7 @@
 }
 
 html {
-    touch-action: manipulation;
+	touch-action: manipulation;
 }
 
 body {
@@ -16,7 +16,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	background-color: #eceff1;
-    overflow: hidden;
+	overflow: hidden;
 }
 
 .container {
@@ -75,15 +75,15 @@ body {
 }
 
 .creator {
-    width: 100%;
-    height: 5%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+	width: 100%;
+	height: 5%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
 }
 
 .creator p {
-    color: #63a1ca;
+	color: #63a1ca;
 }
 
 #div2 {
@@ -159,85 +159,113 @@ body {
 	transition: 0.3s ease;
 }
 
-@media (max-width: 800px) {
-    .container {
-        width: 70%;
-        height: 90%;
-    }
-    
-    #div1 {
-        gap: 15px;
-        height: 80%;
-    }
-    
-    .choice {
-        height: 45vw;
-        width: 45vw;
-        max-height: 180px;
-        max-width: 180px;
-    }
-    
-    .choice p {
-        font-size: 2.5rem;
-    }
-    
-    .choices {
-        width: 80vw;
-        height: 25vh;
-        max-width: 350px;
-        font-size: 2rem;
-    }
-    
-    .btn {
-        height: 15%;
-        flex-wrap: wrap;
-        padding: 10px 0;
-    }
-    
-    .btn button {
-        width: 30%;
-        height: 45px;
-        font-size: 0.9rem;
-        margin: 5px;
-    }
+@media (max-width: 1200px) {
+	.container {
+		width: 90%;
+		height: 60%;
+	}
+
+	.choice {
+		height: 450px;
+		width: 450px;
+	}
+
+	.choices {
+		width: 800px;
+		height: 300px;
+	}
+
+	.choice p {
+		font-size: 60px;
+	}
+
+	.btn button {
+		width: 30%;
+		height: 100px;
+		font-size: 2rem;
+		margin: 5px;
+	}
+}
+
+@media (max-width: 768px) {
+	.container {
+		width: 70%;
+		height: 90%;
+	}
+
+	#div1 {
+		gap: 15px;
+		height: 80%;
+	}
+
+	.choice {
+		height: 45vw;
+		width: 45vw;
+		max-height: 180px;
+		max-width: 180px;
+	}
+
+	.choice p {
+		font-size: 2.5rem;
+	}
+
+	.choices {
+		width: 80vw;
+		height: 25vh;
+		max-width: 350px;
+		font-size: 2rem;
+	}
+
+	.btn {
+		height: 15%;
+		flex-wrap: wrap;
+		padding: 10px 0;
+	}
+
+	.btn button {
+		width: 30%;
+		height: 45px;
+		font-size: 0.9rem;
+		margin: 5px;
+	}
 }
 
 @media (max-width: 480px) {
-    .container {
-        width: 95%;
-        height: 90%;
-    }
-    
-    #div1 {
-        gap: 10px;
-        height: 80%;
-    }
-    
-    .choice {
-        height: 40vw;
-        width: 40vw;
-    }
-    
-    .choice p {
-        font-size: 2rem;
-    }
-    
-    .choices {
-        height: 20vh;
-        font-size: 1.8rem;
-    }
+	.container {
+		width: 95%;
+		height: 90%;
+	}
 
-    .btn {
-        height: 15%;
-    }
-    
-    .btn button {
-        width: 30%;
-        height: 40px;
-        font-size: 0.8rem;
-    }
-    
-    .creator p {
-        font-size: 0.8rem;
-    }
+	#div1 {
+		gap: 10px;
+		height: 80%;
+	}
+
+	.choice {
+		height: 40vw;
+		width: 40vw;
+	}
+
+	.choice p {
+		font-size: 2rem;
+	}
+
+	.choices {
+		height: 20vh;
+		font-size: 1.8rem;
+	}
+
+	.btn {
+		height: 15%;
+	}
+
+	.btn button {
+		width: 30%;
+		height: 40px;
+		font-size: 0.8rem;
+	}
+
+	.creator p {
+		font-size: 0.8rem;
+	}
 }
