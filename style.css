@@ -159,7 +159,7 @@ body {
 	transition: 0.3s ease;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .container {
         width: 70%;
         height: 90%;
