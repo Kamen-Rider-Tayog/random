@@ -165,8 +165,8 @@ body {
     }
     
     .choice {
-        height: 200px;
-        width: 200px;
+        height: 250px;
+        width: 250px;
     }
     
     .choices {
@@ -178,7 +178,7 @@ body {
 @media (max-width: 768px) {
     .container {
         width: 70%;
-        height: 95%;
+        height: 90%;
     }
     
     #div1 {
