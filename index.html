@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+		/>
+		<title>RANDOM CHOICE</title>
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+			integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="container">
+			<div id="div1">
+				<div class="choice a"><p>A</p></div>
+				<div class="choice b"><p>B</p></div>
+				<div class="choice c"><p>C</p></div>
+				<div class="choice d"><p>D</p></div>
+			</div>
+			<div id="div2">
+				<div class="choices t">TRUE</div>
+				<div class="choices f">FALSE</div>
+			</div>
+			<div class="creator">
+				<p>Made by kagame</p>
+			</div>
+			<div class="btn">
+				<button id="refreshButton">
+					<i class="fa-solid fa-rotate-right"></i>
+				</button>
+				<button id="playButton">PLAY</button>
+				<button id="switchButton" onclick="switchDivs()">True or False</button>
+			</div>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
